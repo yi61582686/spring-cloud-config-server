@@ -2,7 +2,19 @@ spring:
   profiles:
     active: test
     
+------------------------    
     
 server:
   port: 8080
+ 
+spring:
+  profiles: dev #声明配置的类型
+  application:
+    name: cloud-dev
   
+------------------------
+
+spring:
+  profiles: test #声明配置的类型
+  application:
+    name: cloud-test
