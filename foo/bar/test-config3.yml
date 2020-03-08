@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: test
+    
+---
+
+server:
+  port: 8080
+spring:
+  application:
+    name: cloud-dev3
+  profiles:
+    active: dev
+    
+---
+
+server:
+  port: 8090
+spring:
+  application:
+    name: cloud-test3
+  profiles:
+    active: test
